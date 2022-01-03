@@ -14,7 +14,7 @@ export const useAuth = () => {
 function useProvideAuth() {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
-
+// auth provider understood
   const getCurrentUser = () => {
     auth.currentUser?.uid
       ? db
