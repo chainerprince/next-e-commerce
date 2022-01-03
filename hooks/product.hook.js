@@ -5,7 +5,7 @@ const useProduct = (id) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
+//learnt how to use custom hooks
   useEffect(() => {
     async function fetchFromFirestore() {
       db.collection("Products")

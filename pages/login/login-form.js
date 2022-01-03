@@ -11,7 +11,7 @@ import emailLogin from "firebase/login";
 import googleAuth from "firebase/google-auth";
 
 const schema = yup.object().shape({
-  email: yup.string().email().required("* Email is required."),
+  email: yup.string().email().required("* Email is required Please."),
   password: yup
     .string()
     .required("* Password is required.")
