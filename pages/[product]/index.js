@@ -94,7 +94,7 @@ export default function Product({ data, query }) {
     <Layout>
       <div className={styles.container}>
         <Head>
-          <title>Create Next App</title>
+          <title>Murugo</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
