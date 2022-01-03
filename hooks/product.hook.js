@@ -27,7 +27,7 @@ const useProduct = (id) => {
     error,
   };
 };
-
+//fetch category from categories in the firestore
 const useCategoryProducts = (category) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
