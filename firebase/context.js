@@ -6,6 +6,7 @@ export function AuthProvider({ children }) {
   const auth = useProvideAuth();
   return <authContext.Provider value={auth}>{children}</authContext.Provider>;
 }
+//learn to use createContext and react context api
 export const useAuth = () => {
   console.log("useAuth");
   return useContext(authContext);
