@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
-
+//learnt how to use @ in the saame document
 import { db } from "@/config/firebase";
 import { useAuth } from "@/firebase/context";
 import { useCart } from "hooks/cart.hook";
@@ -176,6 +176,8 @@ export default function Product({ data, query }) {
   );
 }
 
+
+//get initial props in nextjs commented
 Product.getInitialProps = async function ({ query }) {
   let data = {};
   let error = {};
