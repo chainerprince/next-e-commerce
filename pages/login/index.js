@@ -8,6 +8,7 @@ import { auth } from "../../config/firebase";
 
 export default function LoginPage() {
   const [page, setPage] = useState("login");
+  console.log(process.env.NEXT_PUBLIC_FIREBASE_API_KEY)
 
   const router = useRouter();
 
