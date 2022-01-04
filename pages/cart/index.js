@@ -38,6 +38,7 @@ export default function CartPage() {
     }),
     {}
   );
+  
 
   const cartItemsArray = [
     ...new Set(
