@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^1.0.0",
+    "apollo-server-micro": "^3.6.1",
     "date-fns": "^2.16.1",
     "firebase": "^7.23.0",
     "mongoose": "^6.1.4",
